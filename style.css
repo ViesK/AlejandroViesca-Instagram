@@ -1,0 +1,86 @@
+/*----------Marcar cajas de contenido----------*/
+/*{
+	border: 1px dashed red;
+}
+
+div{
+	border: 1px solid rgb(55, 0, 255);
+}
+
+/*-------------------Codigo-------------------*/
+body{
+	margin: 0px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head{
+	display: flex;
+	justify-content: center;
+	height: 60px;
+}
+
+.title-head{
+	display: flex;
+	align-items: center;
+	width: 50%;
+}
+
+.content{ /*Body*/
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+	background-color: lightgrey;
+}
+
+/*Definimos los posts con titulo, foto y descripción*/
+.post-content{
+	width: 50%;
+	height: 350px;
+	margin-top: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+}
+
+/*Los 3 divs dentro del post*/
+.post-content div{
+	margin: 1px 5px 1px 5px;
+	align-items: center;
+}
+
+.title-post-content{
+	height: 30px;
+	display: flex;
+}
+
+.image-post-content{
+	height: 260px;
+	position: relative;
+}
+
+.description-post-content{
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+
+/*Detalles de texto y colocación de imagen*/
+p{
+	font-size: small;
+}
+
+.description-post-content p{
+	margin: 0px 10px;
+}
+
+.align-right{
+	margin-left: auto;
+	color: lightgrey;
+}
+
+.image-post-content img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
